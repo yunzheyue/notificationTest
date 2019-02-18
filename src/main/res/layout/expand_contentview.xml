@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView android:layout_width="100dp" android:layout_height="100dp" android:src="@mipmap/ic_test"/>
+    <ImageView android:layout_width="100dp" android:layout_height="100dp" android:src="@mipmap/ic_test"/>
+
+    <!--竟然不能显示TextView-->
+    <TextView android:id="@+id/tv_content" android:layout_width="100dp" android:layout_height="100dp"
+              android:text="折叠内容" android:background="#ff0000"/>
+
+    <Button android:id="@+id/bt_control" android:layout_width="wrap_content" android:background="#00ff00"
+            android:layout_height="wrap_content"
+            android:text="点击"/>
+
+
+</LinearLayout>
